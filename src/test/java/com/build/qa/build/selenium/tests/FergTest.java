@@ -131,7 +131,6 @@ public class FergTest extends BaseFramework {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
-
 		WebElement clickMoen = driver.findElement(By.xpath("//div[@class='ri-nav-ul-li-content']/p[.='Moen']"));
 		clickMoen.click();
 
